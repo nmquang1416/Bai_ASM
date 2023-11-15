@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: lato;
+}
+nav{
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.items{
+    padding: 16px 12px;
+}
+nav ul li.items a{
+    text-decoration: none;
+    color: white!important;
+}
+header{
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+}
+.text-header{
+    position: relative;
+    top: 45%;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.sub-title{
+    font-size: 1rem;
+    margin-top: 12px;
+}
+#section-1{
+    width: 100%;
+    height: 280px;
+}
+.text-section-1{
+    position: relative;
+    top: 30%;
+}
+section#section-1 div.text-section-1 p.title{
+text-align: center;
+}
+
+section#section-1 div.text-section-1 p.sub-title{
+    width: 100%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+#section-2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(214, 214, 214);
+}
+
+.text-section-2{
+    position: relative;
+    top: 20%;
+}
+
+section#section-2 div.text-section-2 p.title{
+    text-align: center;
+}
+    
+section#section-2 div.text-section-2 ul{
+    margin: 8px;
+    padding: 8px;
+}
+
+#section-3{
+    width: 100%;
+    height: 760px;
+    position: relative;
+    top: 50%;
+}
+
+.project-content{
+    position: relative;
+    top: 5%;
+}
+.group-card{
+    width: 1540px;
+    margin: auto;
+}
+
+.card{
+    display: flex; 
+    margin-top: 16px;
+    
+}
+#section-3 .group-card .card img{
+    width: 200px;
+    margin-right: 96px;
+
+}
+.text-card{
+    position: relative;
+    top: 20%;
+}
+.heading-project{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#section-4 {
+    width: 100%;
+}
+
+#section-4 .contact p.title{
+    margin-bottom: 16px;
+}
+
+#section-4 .contact form .input-decor{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0px 8px 8px;
+}
+
+#send-form{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#send-form button{
+    
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+span.error p{
+    color: red;
+    margin-left: 8px;
+}
+

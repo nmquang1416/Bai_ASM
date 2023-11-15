@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- lato font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ASM</title>
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+            <li class="items" id="about"><a href="#">About</a></li>
+            <li class="items" id="skill"><a href="#">Skill</a></li>
+            <li class="items" id="project"><a href="#">Project</a></li>
+            <li class="items" id="contact"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <div class="text-header">
+            <p class="title">
+                Welcome to My Portfolio
+            </p>
+            <p class="sub-title">
+                A brief description of my work and expereence
+            </p>
+        </div>
+    </header>
+    
+    <section id="section-1">
+        <div class="text-section-1">
+            <p class="title">
+                About Me
+            </p>
+            <p class="sub-title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit atque debitis maxime ex, odit neque, sapiente dolor adipisci dolore incidunt nesciunt architecto quis id assumenda libero, illo a numquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni porro odio mollitia sapiente, tempora iure suscipit quo perspiciatis dolore quia. Nam laudantium vel totam tenetur expedita cum quaerat voluptatum!
+            </p>
+        </div>
+    </section>
+
+    <section id="section-2">
+        <div class="text-section-2">
+            <p class="title">
+                Skill
+            </p>
+            <ul>
+                <li class="list-skill">Html</li>
+                <li class="list-skill">Css</li>
+                <li class="list-skill">Javascript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <div class="project-content">
+            <p class="title">
+                Project
+            </p>
+            <div class="group-card">
+                <div class="card">
+                    <img src="img/4.png" alt="photo" class="card-items-img">
+                    <div class="descript">
+                        <div class="text-card">
+                            <p class="heading-project">
+                                Project
+                            </p>
+                            <p class="sub-heading">
+                                Project 1 Description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/7.png" alt="photo" class="card-items-img">
+                    <div class="descript">
+                        <div class="text-card">
+                            <p class="heading-project">
+                                Project
+                            </p>
+                            <p class="sub-heading">
+                                Project 1 Description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/8.png" alt="photo" class="card-items-img">
+                    <div class="descript">
+                        <div class="text-card">
+                            <p class="heading-project">
+                                Project
+                            </p>
+                            <p class="sub-heading">
+                                Project 1 Description
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/9.png" alt="photo" class="card-items-img">
+                    <div class="descript">
+                        <div class="text-card">
+                            <p class="heading-project">
+                                Project
+                            </p>
+                            <p class="sub-heading">
+                                Project 1 Description
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-4">
+        <div class="contact">
+
+            <p class="title">Contact</p>
+
+            <form action="" onsubmit=" return validateform()">
+
+                <input id="name" class="input-decor" type="text" placeholder="Your name" required>
+                <span class="error" id="error-name"></span>
+
+                <input id="email" class="input-decor" type="email" placeholder="Your email" required>
+                <span class="error" id="error-email"></span>
+
+                <input id="msg" class="input-decor" type="text" placeholder="Your massage" required>
+                <span class="error" id="error-msg"></span>
+
+                
+                <div id="send-form">
+                    <button type="submit" value="resgister">send</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
