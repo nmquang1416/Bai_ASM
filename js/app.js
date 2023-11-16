@@ -32,3 +32,25 @@ function validateform() {
 
     return true;
 }
+
+//scroll top
+function scroll_top() {
+    window.scrollTo(0,0);
+}
+
+/// sau khi cuộn thì button hiện ra
+window.onscroll = function(){back_to_top()};
+function back_to_top() {
+   
+    const current_window = document.documentElement.scrollTop;
+    const active = document.getElementById("back-to-top");
+    
+    if (current_window > 540) {
+
+        active.className = "active";
+    } else {
+        active.className = "";
+        
+    }
+
+}

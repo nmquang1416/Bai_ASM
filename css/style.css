@@ -148,3 +148,20 @@ span.error p{
     margin-left: 8px;
 }
 
+/* back-to-top btn */
+#back-to-top{
+    position: fixed;
+    bottom: 0%;
+    z-index: 9999;
+    padding: 12px;
+    opacity: 0;
+}
+
+@keyframes fade_in {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.active{
+    animation: fade_in 1s ease-in!important;
+}
+
