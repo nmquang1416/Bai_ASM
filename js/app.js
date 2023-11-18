@@ -46,8 +46,8 @@ function back_to_top() {
     const active = document.getElementById("back-to-top");
     
     if (current_window > 540) {
-
         active.className = "active";
+        return false;
     } else {
         active.className = "";
         
